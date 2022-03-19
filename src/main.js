@@ -1,5 +1,6 @@
 import {createApp} from 'vue'
 import App from './App.vue'
-const apiurl = process.env.API_URL
+import EqualVueEs from "equal-vue";
+import 'equal-vue/dist/style.css'
 
-createApp(App).use(apiurl).mount('#app')
+createApp(App).use(EqualVueEs).mount('#app')
